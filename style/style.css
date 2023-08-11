@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: tipografiaUno;
+    src: url(../multimedia/tipografia/YsabeauInfant-Italic-VariableFont_wght.ttf);
+
+    font-family: tipografiaDos;
+    src: url(../multimedia/tipografia/YsabeauInfant-VariableFont_wght.ttf);
+}
+
+/** paleta de colores a utilizar #FC7300 , #1F8A70 , #00425A ,
+#181823, #EFF5F5 **/
+
+
+body{
+    background-color: #1F8A70;
+}
+
+
+.header{
+    height: 600px;
+    background-image: url(../multimedia/image/backgroundimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.div-titulo-principal{
+
+}
+
+.tituloPrincipal{
+    font-family: tipografiaDos;
+    font-size: 60px;
+    color: #EFF5F5;
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+    margin-right: 30px;
+}
+
+
+.listaNavegador{
+    font-family: tipografiaDos;
+    color: #EFF5F5;
+    height: 35px;
+    font-size: 20px;
+    background-color: #00425A;
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.colorListaNavegador{
+    color: #EFF5F5;
+    text-decoration: dashed;
+}
+
+
+.main{
+    margin-top: 100px;
+}
+
+
+.div-primera-seccion{
+    height: 550px;
+
+}
+
+.tituloSeccion1{
+    color: #00425A;
+    font-family: tipografiaDos;
+    font-size: 50px;
+    margin-left: 360px;
+}
+
+.imgSeccion1{
+    margin-left: 350px;
+}
+
+.parrafoSeccion1{
+    color: #EFF5F5;
+    font-family: tipografiaUno;
+    width: 250px;
+    font-size: 25px;
+    margin-left: 860px;
+    margin-top: -330px;
+}
+
+
+.div-segunda-seccion{
+    height: 590px;
+    margin-top: 30px;
+
+}
+
+.tituloSeccion2{
+    color: #00425A;
+    font-family: tipografiaDos;
+    font-size: 50px;
+    margin-left: 360px;
+}
+
+.imgSeccion2{
+    margin-left: 350px;
+}
+
+.parrafoSeccion2{
+    color: #EFF5F5;
+    font-family: tipografiaUno;
+    width: 250px;
+    font-size: 25px;
+    margin-left: 860px;
+    margin-top: -360px;
+}
+
+.tituloSeccion3{
+    color: #00425A;
+    font-family: tipografiaDos;
+    font-size: 50px;
+}
+
+.div-hexagonos{
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;  
+}
+
+.img-hexagono1{
+    width: 200px;
+    height: 200px;
+    background-image: url(../multimedia/image/imgRecursoshumanos.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.img-hexagono2{
+    width: 200px;
+    height: 200px;
+    background-image: url(../multimedia/image/imgQuimica.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.img-hexagono3{
+    width: 200px;
+    height: 200px;
+    background-image: url(../multimedia/image/imgMantenimiento.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.img-hexagono4{
+    width: 200px;
+    height: 200px;
+    background-image: url(../multimedia/image/imgDesarrolloweb.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.listaTextosHexagonos{
+    color: #EFF5F5;
+    font-size: 20px;
+    margin-top: -200px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.div-cuarta-seccion{
+    height: 800px;
+}
+
+.tituloSeccion4{
+    color: #00425A;
+    font-family: tipografiaDos;
+    font-size: 50px;
+    margin-left: 10px;
+    margin-right: 1100px;
+    width: 400px;
+
+}
+
+.tituloSecundario4-1{
+    color: #00425A;
+    font-family: tipografiaDos;
+    font-size: 35px;
+    margin-right: 1100px;
+    margin-top: 150px;
+    margin-left: 30px;
+    width: 250px;
+}
+
+.parrafoSeccion4-1{
+    color: #EFF5F5;
+    font-size: 25px;
+    font-family: tipografiaUno;
+    margin-right: 1100px;
+    margin-left: 50px;
+    width: 350px;
+    margin-top: 30px
+}
+
+.tituloSecundario4-2{
+    color: #00425A;
+    font-family: tipografiaDos;
+    font-size: 35px;
+    margin-right: 400px;
+    margin-left: 450px;
+    margin-top: -353px;
+    width: 300px;
+}
+
+.parraforSeccion4-2{
+    color: #EFF5F5;
+    font-size: 25px;
+    font-family: tipografiaUno;
+    margin-right: 400px;
+    margin-left: 474px;
+    margin-top: 30px;
+    width: 300px;
+}
+
+.footer{
+    font-family: tipografiaDos;
+    display: flex;
+    justify-content: space-between;
+    background-color: #00425A;
+}
+
+.tituloFooter1{
+    color: #EFF5F5;
+}
+
+
+@media screen and (max-width: 320px){
+    max-width: 320px;} 
+    

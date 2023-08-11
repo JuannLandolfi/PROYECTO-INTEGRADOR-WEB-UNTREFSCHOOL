@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: tipografiaUno;
+    src: url(../multimedia/tipografia/YsabeauInfant-Italic-VariableFont_wght.ttf);
+
+    font-family: tipografiaDos;
+    src: url(../multimedia/tipografia/YsabeauInfant-VariableFont_wght.ttf);
+}
+
+/** paleta de colores a utilizar #FC7300 , #1F8A70 , #00425A ,
+#181823, #EFF5F5 **/
+
+
+body{
+    background-color: #1F8A70;
+}
+
+
+.header{
+    height: 300px;
+    background-image: url(../multimedia/image/backgroundimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.div-titulo-principal{
+
+}
+
+.tituloPrincipal{
+    font-family: tipografiaDos;
+    font-size: 60px;
+    color: #EFF5F5;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    margin-right: 30px;
+}
+
+
+.listaNavegador{
+    font-family: tipografiaDos;
+    color: #EFF5F5;
+    height: 35px;
+    font-size: 20px;
+    background-color: #00425A;
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.colorListaNavegador{
+    color: #EFF5F5;
+    text-decoration: dashed;
+    font-family: tipografiaUno;
+}
+
+.formSection{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    gap: 19px;
+    width: 400px;
+    height: 700px;
+    margin-left: 450px;
+    padding: 50px;
+    text-align: center;
+    align-items: center;
+    background-color: #145746;
+    box-shadow: 0 0 20px rgb(0, 0, 0.2);
+    border-radius: 15px;
+}
+
+.tituloFormulario{
+    color: #EFF5F5;
+    font-size: 33px;
+    font-family: tipografiaDos;
+    text-shadow: 0 0 30px rgb(19, 18, 18);
+}
+
+.input-css{
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 8px;
+    border: 1px solid rgb(35, 124, 90);
+    box-shadow: 0 0 10px rgb(26, 25, 25);
+    outline: none;
+    background-color: transparent;
+}
+
+::placeholder{
+    color: rgb(255, 253, 253);
+}
+
+.inputFecha{
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 8px;
+    border: 1px solid rgb(35, 124, 90);
+    box-shadow: 0 0 10px rgb(26, 25, 25);
+    background-color: transparent;
+    color: rgb(255, 253, 253);
+}
+
+#subirArchivo{
+    color: #EFF5F5;
+    width: 350px;
+}
+
+#enviarFormulario{
+    color: #12795f;
+    background-color: #EFF5F5;
+    font-size: 20px;
+    
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #00425A;
+}
+
+.tituloFooter1{
+    color: #EFF5F5;
+}
+
+
+
+@media screen and (max-width: 728px) {
+    max-width: 728px;
+}
