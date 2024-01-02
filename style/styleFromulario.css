@@ -12,6 +12,7 @@
     src: url(../multimedia/tipografia/YsabeauInfant-VariableFont_wght.ttf);
 }
 
+/** tipografias descargadas de google fonts**/
 /** paleta de colores a utilizar #FC7300 , #1F8A70 , #00425A ,
 #181823, #EFF5F5 **/
 
@@ -29,9 +30,6 @@ body{
     background-position: center;
 }
 
-.div-titulo-principal{
-
-}
 
 .tituloPrincipal{
     font-family: tipografiaDos;
@@ -132,6 +130,3 @@ body{
 
 
 
-@media screen and (max-width: 728px) {
-    max-width: 728px;
-}

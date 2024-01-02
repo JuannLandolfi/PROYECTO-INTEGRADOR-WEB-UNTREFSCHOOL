@@ -126,8 +126,12 @@ body{
     font-size: 50px;
 }
 
+.div-contenedor-hexagonos{
+    height: 300px;
+}
+
 .div-hexagonos{
-    height: 400px;
+    height: 200px;
     display: flex;
     justify-content: space-around;
     list-style: none;  
@@ -180,7 +184,6 @@ body{
 .listaTextosHexagonos{
     color: #EFF5F5;
     font-size: 20px;
-    margin-top: -200px;
     list-style: none;
     display: flex;
     justify-content: space-around;
@@ -252,7 +255,3 @@ body{
     color: #EFF5F5;
 }
 
-
-@media screen and (max-width: 320px){
-    max-width: 320px;} 
-    
