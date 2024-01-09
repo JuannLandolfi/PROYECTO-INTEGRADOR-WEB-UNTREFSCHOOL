@@ -70,6 +70,7 @@ body{
 }
 
 .imgSeccion1{
+    
     border-radius: 1rem;
 }
 
@@ -273,3 +274,181 @@ body{
     color: #EFF5F5;
 }
 
+
+
+/* Adaptacion a dispositivos mobiles */
+
+@media (max-width: 425px)   {
+    .navegador{
+        background-color: #00425A;
+    }
+    .listaNavegador{
+        font-size: 13px;
+        height: 40px;
+        margin: 3px;
+    }
+
+    .header{
+        height: 400px;
+    }
+
+    .tituloPrincipal{
+        height: 300px;
+    }
+
+    .imgSeccion1{
+        height: 220px;
+        width: 320px;
+    }
+    .parrafoSeccion1{
+        font-size: 20px;
+    }
+
+    .imgSeccion2{
+        height: 220px;
+        width: 320px;
+    }
+    .parrafoSeccion2{
+        font-size: 20px;
+    }
+
+
+    .tituloSeccion3{
+        font-size: 40px;
+    }
+    .div-contenedor-hexagonos{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 1015px;
+    }
+    .div-hexagonos{
+        height: 915px;
+        width: 180px;
+        display: flex;
+        flex-direction: column;
+    }
+    .img-hexagono1{
+        height: 150px;
+        width: 150px;
+    }
+    .img-hexagono2{
+        height: 150px;
+        width: 150px;
+    }
+    .img-hexagono3{
+        height: 150px;
+        width: 150px;
+    }
+    .img-hexagono4{
+        height: 150px;
+        width: 150px;
+    }
+
+    .div-lista-hexagonos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .listaTextosHexagonos{
+        font-size: 18px;
+        display: flex;
+        flex-direction: column;
+        gap: 200px;
+    }
+
+
+    .div-contenedor4{
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+    }
+    .div-lista1{
+        display: flex;
+        flex-direction: column;
+    }
+    .div-lista2{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    .divRedes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .divUbicacion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+    .divContactos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .tituloFooter1{
+        font-size: 13px;
+    }
+    .ubicacionFooter{
+        width: 120px;
+        height: 120px;
+    }
+}
+
+
+/* Adaptación a dispositivos tablets */
+
+@media (min-width: 768px) and (max-width: 1024px)   {
+    .navegador{
+        background-color: #00425A;
+    }
+    .listaNavegador{
+        font-size: 19px;
+        height: 55px;
+        margin: 8px;
+    }
+
+    .header{
+        height: 400px;
+    }
+
+    .tituloPrincipal{
+        height: 300px;
+    }
+
+    .imgSeccion1{
+        height: 320px;
+        width: 320px;
+    }
+    .imgSeccion2{
+        height: 320px;
+        width: 320px;
+    }
+    .img-hexagono1{
+        height: 150px;
+        width: 150px;
+    }
+    .img-hexagono2{
+        height: 150px;
+        width: 150px;
+    }
+    .img-hexagono3{
+        height: 150px;
+        width: 150px;
+    }
+    .img-hexagono4{
+        height: 150px;
+        width: 150px;
+    }
+
+    .listaTextosHexagonos{
+        font-size: 18px;
+    }
+}

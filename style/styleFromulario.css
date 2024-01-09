@@ -119,10 +119,10 @@ main{
     color: #12795f;
     background-color: #EFF5F5;
     font-size: 20px;
-    
 }
 
 .footer{
+    font-family: tipografiaDos;
     display: flex;
     justify-content: space-between;
     background-color: #00425A;
@@ -134,3 +134,48 @@ main{
 
 
 
+
+
+
+/* Adaptación a dispositivos mobiles */
+
+@media (max-width: 425px)   {
+
+    .divRedes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .divUbicacion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+    .divContactos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .tituloFooter1{
+        font-size: 13px;
+    }
+    .ubicacionFooter{
+        width: 120px;
+        height: 120px;
+    }
+
+}
+
+
+
+
+
+/* Adaptación a dispositivos tablets */
+
+@media (min-width: 768px) and (max-width: 1024px)   {
+
+
+}
