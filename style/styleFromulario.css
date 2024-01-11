@@ -137,15 +137,19 @@ main{
 
 
 
-/* Adaptación a dispositivos mobiles */
+/* Adaptación a dispositivos moviles */
 
 @media (max-width: 425px)   {
 
+    .listaNavegador{
+        display: flex;
+        align-items: center;
+        font-size: 17px;
+    }
     .divRedes{
         display: flex;
         flex-direction: column;
         align-items: center;
-
     }
     .divUbicacion{
         display: flex;
@@ -166,6 +170,7 @@ main{
         width: 120px;
         height: 120px;
     }
+
 
 }
 

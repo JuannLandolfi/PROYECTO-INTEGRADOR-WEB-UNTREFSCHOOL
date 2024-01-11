@@ -451,4 +451,9 @@ body{
     .listaTextosHexagonos{
         font-size: 18px;
     }
+
+    .div-contenedor4{
+        display: flex;
+        flex-direction: column;
+    }
 }
